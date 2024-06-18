@@ -2,7 +2,7 @@ import Client from 'clash.js'
 import DiscordClient from '../DiscordClient'
 import { CommandParameters, SlashCommand } from '../types'
 import { ChatInputCommandInteraction as Interaction, SlashCommandAssertions, SlashCommandBuilder, SlashCommandStringOption } from 'discord.js'
-import { Environment, validateTag } from '../lib'
+import { Environment } from '../lib'
 
 export const Command = {
   type: 'slash',
