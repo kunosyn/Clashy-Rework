@@ -1,0 +1,21 @@
+{
+  "name": "clashy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.14.4"
+  },
+  "scripts": {
+    "prestart": "tsc.cmd",
+    "start": "node dist/index.js",
+
+    "register": "tsc.cmd && node dist/refreshCommands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "clash.js": "^1.1.0-canary.11",
+    "discord.js": "^14.15.3"
+  }
+}
